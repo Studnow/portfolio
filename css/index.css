@@ -23,19 +23,11 @@ body {
 	display: flex;
 }
 
-/* Header navigation */
-
-.grid {
-	display: grid;
-}
-
-.flex {
-	display: flex;
-}
-
 a {
 	text-decoration: none;
 }
+
+/* Header navigation */
 
 .page {
 	grid-template-columns: 1fr;
@@ -255,6 +247,11 @@ h2 {
 
 .read-more {
 	margin-left: 1.5rem;
+	color: darkslategray;
+}
+
+.read-more:hover {
+	color: firebrick;
 }
 
 .first-col:before {
